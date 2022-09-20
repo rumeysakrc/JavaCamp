@@ -5,8 +5,8 @@ public class Main {
 	public static void main(String[] args) {
 		int number = 496;
 		int total = 0;
-		
-		if (number<1) {
+
+		if (number < 1) {
 			System.out.println("Geçersiz Sayi");
 			return;
 		}
@@ -18,8 +18,7 @@ public class Main {
 		}
 		if (total == number) {
 			System.out.println("Mukemmel sayidir.");
-		}
-		else {
+		} else {
 			System.out.println("Mukemmel sayi degildir.");
 		}
 	}
